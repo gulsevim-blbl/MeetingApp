@@ -24,3 +24,5 @@ C:\Users\gulse\OneDrive\Masaüstü\MeetingApp\obj\Debug\net8.0\refint\MeetingApp
 C:\Users\gulse\OneDrive\Masaüstü\MeetingApp\obj\Debug\net8.0\MeetingApp.pdb
 C:\Users\gulse\OneDrive\Masaüstü\MeetingApp\obj\Debug\net8.0\MeetingApp.genruntimeconfig.cache
 C:\Users\gulse\OneDrive\Masaüstü\MeetingApp\obj\Debug\net8.0\ref\MeetingApp.dll
+C:\Users\gulse\OneDrive\Masaüstü\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cache
+C:\Users\gulse\OneDrive\Masaüstü\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cs

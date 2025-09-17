@@ -21,7 +21,7 @@ var app = builder.Build();  //uygulamayı oluşturur
 
 app.MapControllerRoute(
      name: "default",
-     pattern: "{controller=Meeting}/{action=Index}/{id?}"
+     pattern: "{controller=Home}/{action=Index}/{id?}"
 ); //id opsiyonel
 
 app.Run(); //uygulamayı çalıştırır.
