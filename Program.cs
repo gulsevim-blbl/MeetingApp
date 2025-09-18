@@ -8,6 +8,9 @@ Ekstra bilgi:
 */
 var app = builder.Build();  //uygulamayı oluşturur
 
+app.UseStaticFiles(); //wwwroot altındaki statik dosyaları sunmak için gerekli ara katmanı ekler
+
+app.UseRouting(); //yönlendirme ara katmanını ekler
 
 //! 1-bu işlemi Controllera aktarıyor olmamız gerekiyor.Bu yüzden yoruma alıyoruz.
 
@@ -15,7 +18,7 @@ var app = builder.Build();  //uygulamayı oluşturur
 // app.MapGet("/abc", () => "deneme!");
 
 //! 2- Ve buraya bir şema ekliyoruz. /{controller}/{action}/id
-/*app.MapDefaultControllerRoute(); //varsayılan controller rotasını ekler.Kısa Yolu bu */ 
+/*app.MapDefaultControllerRoute(); //varsayılan controller rotasını ekler.Kısa Yolu bu */
 
 //? uzun yolu da şöyledir:
 
