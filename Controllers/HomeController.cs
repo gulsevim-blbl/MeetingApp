@@ -13,7 +13,7 @@ namespace MettingApp.Controllers
             // ViewBag.Username = "Gül Sevim";
 
             ViewData["Selamlama"] = saat > 12 ? "Günaydın" : "İyi Günler";
-            ViewData["Username"] = "Gül Sevim";
+            // ViewData["Username"] = "Gül Sevim";
 
             var meetingInfo = new MeetingInfo()
             {
