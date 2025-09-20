@@ -52,7 +52,7 @@ Bu projede aşağıdaki ASP.NET Core MVC konuları ele alınmaktadır:
 
 1. Bu projeyi klonlayın:  
    ```bash
-   git clone https://github.com/kullanici-adi/MeetingApp.git
+   git clone https://github.com//gulsevim-blbl/MeetingApp.git
    ```
 
 2. Proje klasörüne gidin:  
@@ -69,3 +69,4 @@ Bu projede aşağıdaki ASP.NET Core MVC konuları ele alınmaktadır:
    ```
    https://localhost:5001
    ```
+
