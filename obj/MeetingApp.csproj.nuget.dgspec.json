@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj": {}
+    "c:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj": {
+    "c:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj",
+        "projectUniqueName": "c:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj",
         "projectName": "MeetingApp",
-        "projectPath": "C:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj",
+        "projectPath": "c:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj",
         "packagesPath": "C:\\Users\\gulse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\obj\\",
+        "outputPath": "c:\\Users\\gulse\\OneDrive\\Masaüstü\\MeetingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gulse\\AppData\\Roaming\\NuGet\\NuGet.Config"
