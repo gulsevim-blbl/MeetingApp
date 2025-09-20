@@ -1,9 +1,24 @@
-@{
-    ViewBag.Title = "Başvuru Formu";
-}
+@{ ViewBag.Title = "Başvuru Formu"; }
 
 <h1 class="h4">Toplantı Katılım Formu</h1>
-
-<form asp-action="Apply" method="post">
-    <button class="btn btn-primary" type="submit">Kaydet</button>
+<form action="">
+  <div class="mb-3">
+    <label for="name" class="form-label">Ad Soyad</label>
+    <input type="text" class="form-control" name="Name" id="Name" />
+  </div>
+  <div class="mb-3">
+    <label for="Phone" class="form-label">Telefon</label>
+    <input type="text" class="form-control" name="Phone" id="Phone" />
+  </div>
+  <div class="mb-3">
+    <label for="Email" class="form-label">E-posta</label>
+    <input type="email" class="form-control" name="Email" id="Email" />
+  </div>
+  <div class="mb-3">
+    <label for="WillAttend" class="form-label">Katılım Durumu</label>
+    <select name="WillAttend" id="WillAttend" class="form-select">
+      <option value="true">Evet, Geliyorum.</option>
+      <option value="false">Hayır, Gelmiyorum.</option>
+    </select>
+  </div>
 </form>
