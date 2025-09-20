@@ -1,7 +1,7 @@
 @{ ViewBag.Title = "Başvuru Formu"; }
 
 <h1 class="h4">Toplantı Katılım Formu</h1>
-<form action="">
+<form method="post">
   <div class="mb-3">
     <label for="name" class="form-label">Ad Soyad</label>
     <input type="text" class="form-control" name="Name" id="Name" />
@@ -21,4 +21,5 @@
       <option value="false">Hayır, Gelmiyorum.</option>
     </select>
   </div>
+  <button type="submit" class="btn btn-primary">Kaydet</button>
 </form>

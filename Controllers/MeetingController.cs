@@ -5,20 +5,23 @@ namespace MeetingApp.Controllers
 
     public class MeetingController : Controller
     {
-
+        //bu action methodlar bir get requesttir aksi belirtilmedikce defaultu [HttpGet]tir
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
+        [HttpGet]
         public IActionResult Apply()
         {
             return View();
         }
-          public IActionResult List()
+        [HttpGet]
+        public IActionResult List()
         {
             return View();
         }
     }
 
-  
+
 }
