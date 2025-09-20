@@ -19,7 +19,7 @@ namespace MeetingApp.Controllers
         {
             // Console.WriteLine($"Name: {Name}, Phone: {Phone}, Email: {Email}, WillAttend: {WillAttend}");
             Repository.CreateUser(model);
-            ViewBag.UserCount = Repository.Users.Where(info =>info.WillAttend == true).Count();
+            ViewBag.UserCount = Repository.Users.Where(info => info.WillAttend == true).Count();
             return View("Thanks", model);
         }
 
@@ -28,6 +28,12 @@ namespace MeetingApp.Controllers
         {
             var users = Repository.Users;
             return View(users);
+        }
+        
+        public IActionResult Details(int id)
+        {
+           
+           return View(Repository.GetUserById(id));
         }
     }
 
