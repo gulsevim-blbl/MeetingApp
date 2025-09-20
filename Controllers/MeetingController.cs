@@ -26,7 +26,8 @@ namespace MeetingApp.Controllers
         [HttpGet]
         public IActionResult List()
         {
-            return View();
+            var users = Repository.Users;
+            return View(users);
         }
     }
 

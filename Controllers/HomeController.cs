@@ -13,6 +13,7 @@ namespace MettingApp.Controllers
             // ViewBag.Username = "Gül Sevim";
 
             ViewData["Selamlama"] = saat > 12 ? "Günaydın" : "İyi Günler";
+             int UserCount = Repository.Users.Where(info =>info.WillAttend == true).Count();
             // ViewData["Username"] = "Gül Sevim";
 
             var meetingInfo = new MeetingInfo()
@@ -20,7 +21,7 @@ namespace MettingApp.Controllers
                 Id = 1,
                 Location = "İstanbul Ofis",
                 Date = new DateTime(2024, 7, 15, 14, 0, 0),
-                NumberOfPeople = 100
+                NumberOfPeople = UserCount
             };
 
 
