@@ -8,7 +8,8 @@ action bilgisini vermediğimizde form verisi aynı url'e post edilir
 yani /Meeting/Apply action'ına post edilir formu bize getirem url
 method="post" dememizin sebebi bu formun verisini post et demek
 -->
-<form method="post" action="">
+<form method="post" action="/Meeting/Apply" novalidate> <!-- novalidate ile html5 validasyonlarını kapatıyoruz, server-side validasyonları kullanacağız -->
+  <div asp-validation-summary="All"></div> <!-- formun en üstünde tüm validasyon hatalarını gösterir -->
   <div class="mb-3">
     <label asp-for="Name" class="form-label">Ad Soyad</label>
     <input asp-for="Name" class="form-control"/>
@@ -24,6 +25,7 @@ method="post" dememizin sebebi bu formun verisini post et demek
   <div class="mb-3">
     <label asp-for="WillAttend" class="form-label">Katılım Durumu</label>
     <select asp-for="WillAttend" class="form-select">
+       <option value="">Seçiniz</option>
       <option value="true">Evet, Geliyorum.</option>
       <option value="false">Hayır, Gelmiyorum.</option>
     </select>

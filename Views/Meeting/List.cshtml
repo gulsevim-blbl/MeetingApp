@@ -13,10 +13,10 @@
     <tbody>
       @{int i = 0;}
 
-      @foreach (var user in Model)
+    @foreach (var user in Model)
       {
-          var durum = user.WillAttend ? "Evet" : "Hayır";
-          var className = user.WillAttend ? "table-success" : "table-danger";
+          var durum = user.WillAttend == true ? "Evet" : "Hayır";
+          var className = user.WillAttend == true ? "table-success" : "table-danger";
           
           if(user.WillAttend == true)
           {
